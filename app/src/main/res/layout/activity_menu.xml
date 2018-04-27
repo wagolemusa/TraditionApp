@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.refugewise.app.traditionapp.Menu"
+    android:background="@drawable/stay"
+    style="@style/Base.TextAppearance.AppCompat.Display2">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAVEL ONE     "
+        android:id="@+id/button2"
+        android:background="#c740f1"
+        android:outlineProvider="bounds"
+        android:nestedScrollingEnabled="true"
+        style="@style/AppTheme"
+        android:fontFamily="@string/abc_search_hint"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="62dp"
+        android:layout_marginEnd="62dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAVEL TWO    "
+        android:id="@+id/button3"
+        android:background="#c740f1"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:layout_marginTop="108dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL THREE"
+        android:id="@+id/button4"
+        android:background="#c740f1"
+        android:layout_marginBottom="68dp"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:layout_above="@+id/button5"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL FOUR"
+        android:id="@+id/button5"
+        android:background="#c740f1"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVEL FIVE     "
+        android:id="@+id/button6"
+        android:background="#c740f1"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_dropdownitem_icon_width"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+
+</RelativeLayout>
